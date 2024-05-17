@@ -1,0 +1,19 @@
+  
+    #map {
+        width: 800px; 
+        position: relative;
+      }
+     
+     
+      .marker {
+        width: 5px;
+        height: 5px;
+        background-color: red; 
+        border-radius: 50%; 
+        position: absolute;
+        cursor: pointer; 
+      }
+
+      #mark1{
+        text-decoration: none;
+      }
