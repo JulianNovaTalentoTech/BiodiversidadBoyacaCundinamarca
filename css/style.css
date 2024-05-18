@@ -17,3 +17,16 @@
       #mark1{
         text-decoration: none;
       }
+
+      #img_ecosistema{
+        border: 2px dotted #62a847;
+        border-radius: 15px;
+        width: 80%;
+        height: 50%;
+
+      }
+      #eco_section{
+        background-color: #9fe285;
+        border: 3px 0px solid black;
+      }
+
