@@ -1,65 +1,60 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
   
-    #map {
-        width: 800px; 
-        position: relative;
-      }
-    #map:hover{
-      scale: 140%;
-      transition-duration: 3ms;
-    }
-     
-     
-      .marker {
-        width: 5px;
-        height: 5px;
-        background-color: red; 
-        border-radius: 50%; 
-        position: absolute;
-        cursor: pointer; 
-      }
+  body h1{
+    
+    color: #012030;
+    font-weight:900;
 
-      #mark1{
-        text-decoration: none;
-      }
+    
+  
+  }
 
-      #img_ecosistema{
-        border: 2px dotted #62a847;
-        border-radius: 15px;
-        width: 80%;
-        height: 50%;
-
-      }
-      #eco_section{
-        background-color: #9fe285;
-        border: 3px 0px solid black;
-      }
+  body h3{    
+    color: #255fa2;
+  }
 
 /*mapa*/
 .contenedor_map{
-  background-color: rgb(242, 255, 233);
-  width: 100%;
-  margin: auto;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+background-color: rgb(242, 255, 233);
+width: 100%;
+margin: auto;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 
 }
 
-  .contenedor_map h3{
-    color: #245710;
-    text-align: center;
-    padding-top: 5%;
-    font-size: 35px;
-    font-weight:bold;
-  }
+.contenedor_map h3{
+  
+  text-align: center;
+  padding-top: 5%;
+  font-size: 35px;
+  font-weight:bold;
+}
 
-  .contenedor_map path{
-    fill: antiquewhite;
-    stroke: rgb(8, 8, 8);
-    stroke-width: 0.5px;
-  }
+.contenedor_map path{
+  fill: antiquewhite;
+  stroke: rgb(8, 8, 8);
+  stroke-width: 0.5px;
+}
 
-  .contenedor_map :hover{
-    fill: #9fe285;
-    
-  }
+.contenedor_map :hover{
+  fill: #9fe285;
+  
+}
+
+#img_ecosistema{
+  border: 2px dotted #62a847;
+  border-radius: 15px;
+  width: 80%;
+  height: 50%;
+
+}
+
+#eco_section{
+  margin-top: 10%;
+  background-color: #90d176;
+  border-top:  10px solid rgba(150, 223, 14, 0.342);
+}
 
 
